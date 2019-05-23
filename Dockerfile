@@ -3,6 +3,6 @@ MAINTAINER agdg
 LABEL com.example.version="0.0.1-beta"
 ENV AG=DG
 COPY sk.sh /opt
-USER root
+USER 0
 ENTRYPOINT ["bash", "/opt/sk.sh"]
 CMD ["GIGI"]
